@@ -32,3 +32,7 @@ SRAM is widely used in various applications due to its speed, low power consumpt
 
 --------
 ### **Objectives**
+
+The main goal of this project is to develop a thorough understanding  of SRAM by designing a 6T SRAM cell, along with its associated peripheral circuitry, utilizing Cadence Virtuoso tools on the 180nm technology(GPDK180).This project aims to explore various aspects of  SRAM design with a focus on optimizing read and write  stability by carefully selecting transistor sizes.
+
+
