@@ -28,3 +28,7 @@ SRAM is widely used in various applications due to its speed, low power consumpt
 
 4. **Embedded Systems:** SRAM finds applications in embedded systems, providing quick access to critical data.
 -->
+
+
+--------
+### **Objectives**
