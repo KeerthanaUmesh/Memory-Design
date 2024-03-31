@@ -1,2 +1,2 @@
 # Memory-Design
-Design of 4X4 16-bit SRAM Memory Array Using Cadence tool-chain
+Design of 4X4 16-bit SRAM Memory Array Using Cadence Virtuoso tool
