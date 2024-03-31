@@ -13,3 +13,6 @@ The project involves the design of a 4X4 16-bit SRAM Memory Array using *Cadence
 * In the *Memory Hierarchy* ,SRAM is often used for cache memory, which sits between the CPU and the main memory(DRAM).
 * Unlike DRAM, SRAM does not require refreshing, making it faster and more energy-efficient.
 * SRAM comes with a trade-off, it is more expensive and less dense compared to DRAM.
+
+### **Applications of SRAM
+-------------
