@@ -62,7 +62,9 @@ The SRAM cell design should facilitate the modification of stored information du
 a) ** Cell Ratio (CR) ** :
  - The data-read operation should not destroy the stored information in the SRAM Cell i.e., Read Upset.To accomplish this, it is important to maintain appropriate transistor sizing.
  -For this project, I've utilized a cell ratio, β, of 1.5 and set the width of all PMOS transistors, Wp, to 400 nm.
-
+```
+ Cell ratio, β ={ (W\L) pull down transistors } / {(W\L) access transistor} 
+```
 
 
 
