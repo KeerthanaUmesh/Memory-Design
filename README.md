@@ -49,7 +49,25 @@ The main goal of this project is to develop a thorough understanding  of SRAM by
 This section outlines the comprehensive design flow for a 6T SRAM cell, encompassing both the cell itself and the design considerations for its essential peripheral circuits.
 
 ## SRAM Cell Design
- While designing an SRAM cell the transistor sizing should that is W/L ratio should be such that
- * the data read operation should 
+
+When designing an SRAM cell, careful consideration of transistor sizing, particularly the W/L ratio, is essential to ensure optimal performance. The following points outline the critical aspects:
+
+*Preservation of Stored Information (Avoiding Read Upset ):
+Transistor sizing, specifically the W/L ratio, must be chosen to prevent the destruction of stored information during the data-read operation.
+
+*Allow Data Modification during Write Operation:
+The SRAM cell design should facilitate the modification of stored information during the data-write phase.
+
+** The sizing of the transistors in an SRAM cell is determined by two key parameters: **
+a) ** Cell Ratio (CR) ** :
+ - The data-read operation should not destroy the stored information in the SRAM Cell i.e., Read Upset.To accomplish this, it is important to maintain appropriate transistor sizing.
+ -For this project, I've utilized a cell ratio, β, of 1.5 and set the width of all PMOS transistors, Wp, to 400 nm.
+
+
+
+
+
+
+
 
 
