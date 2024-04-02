@@ -2,7 +2,7 @@
 Design of 4X4 16-bit SRAM Memory Array Using Cadence Virtuoso tool.
 
 ## About
-The project involves the design of a 4X4 16-bit SRAM Memory Array using *Cadence Virtuoso* built using *GPDK 180nm* Technology.
+The project involves the design of a 4X4 16-bit SRAM Memory Array using *Cadence Virtuoso* built using *GPDK 180nm* Technology node.
 
 ## Introduction
 ![Picture1](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/bca1c502-a462-4d61-84f6-fdd75aa42d70)
@@ -34,5 +34,20 @@ SRAM is widely used in various applications due to its speed, low power consumpt
 ### **Objectives**
 
 The main goal of this project is to develop a thorough understanding  of SRAM by designing a 6T SRAM cell, along with its associated peripheral circuitry, utilizing Cadence Virtuoso tools on the 180nm technology(GPDK180).This project aims to explore various aspects of  SRAM design with a focus on optimizing read and write  stability by carefully selecting transistor sizes.
+
+
+------
+# SRAM Architecture
+
+
+
+
+-------------------------
+# Design Methodology
+
+This section outlines the comprehensive design flow for a 6T SRAM cell, encompassing both the cell itself and the design considerations for its essential peripheral circuits.
+
+## SRAM Cell Design
+
 
 
