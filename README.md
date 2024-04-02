@@ -1,3 +1,4 @@
+
 # Memory-Design
 Design of 4X4 16-bit SRAM Memory Array Using Cadence Virtuoso tool.
 
@@ -48,6 +49,7 @@ The main goal of this project is to develop a thorough understanding  of SRAM by
 This section outlines the comprehensive design flow for a 6T SRAM cell, encompassing both the cell itself and the design considerations for its essential peripheral circuits.
 
 ## SRAM Cell Design
-
+ While designing an SRAM cell the transistor sizing should that is W/L ratio should be such that
+ * the data read operation should 
 
 
