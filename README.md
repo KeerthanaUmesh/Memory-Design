@@ -63,7 +63,14 @@ a) ** Cell Ratio (CR) ** :
  - The data-read operation should not destroy the stored information in the SRAM Cell i.e., Read Upset.To accomplish this, it is important to maintain appropriate transistor sizing.
  -For this project, I've utilized a cell ratio, β, of 1.5 and set the width of all PMOS transistors, Wp, to 400 nm.
 ```
- Cell ratio, β ={ (W\L) of pull down transistor<sub>NMOS</sub>  } / {(W\L)n of access transistor<sub>NMOS</sub> } 
+ Cell ratio, β ={ (W\L) of pull down transistor(NMOS) } / {(W\L)n of access transistor<sub>NMOS</sub>(NMOS) } 
+```
+
+B) ** Pull Down (PR) ** :
+ - The cell should allow the modification of the stored information during the data- write phase.To accomplish this, it is important to maintain appropriate transistor sizing.
+ -For this project, I've utilized a Pull up ratio,PR, of 0.85 and set the width of all PMOS transistors, Wp, to 400 nm.
+```
+ Cell ratio, β ={ (W\L) of pull down transistor(NMOS) } / {(W\L)n of access transistor<sub>NMOS</sub>(NMOS) } 
 ```
 
 
