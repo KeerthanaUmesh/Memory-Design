@@ -41,8 +41,6 @@ The main goal of this project is to develop a thorough understanding  of SRAM by
 # SRAM Memory Architecture
 ![Screenshot 2024-04-02 220311](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/33227bd5-99c6-484a-96b7-2fca1a0370d4)
 
-
-
 -------------------------
 # Design Methodology
 
