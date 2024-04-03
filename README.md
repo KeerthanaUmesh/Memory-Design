@@ -39,11 +39,11 @@ The main goal of this project is to develop a thorough understanding  of SRAM by
 
 ------
 # SRAM Memory Architecture
+
+SRAM architecture comprises key components, including word lines, which activate specific rows of memory cells, bit lines for data input and output, and decoders for both row and column selection. When data needs to be read or written, the row decoder selects the appropriate row by activating the corresponding word line, while the column decoder enables the desired column by activating the appropriate bit lines. This efficient arrangement facilitates rapid access to data stored in the memory array.
+
 ![Screenshot 2024-04-02 220311](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/89bbc280-bccf-4dc1-b2cd-b8633ade9bdd)
 
-
-
-SRAM (Static Random Access Memory) architecture comprises key components including word lines, which activate specific rows of memory cells, bit lines for data input and output, and decoders for both row and column selection. When data needs to be read or written, the row decoder selects the appropriate row by activating the corresponding word line, while the column decoder enables the desired column by activating the appropriate bit lines. This efficient arrangement facilitates rapid access to data stored in the memory array
 -------------------------
 # Design Methodology
 
