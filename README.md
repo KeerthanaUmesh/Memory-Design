@@ -2,15 +2,15 @@
 # Memory-Design
 Design of 4X4 16-bit SRAM Memory Array Using Cadence Virtuoso tool.
 
-## About
+# About
 The project involves the design of a 4X4 16-bit SRAM Memory Array using *Cadence Virtuoso* built using *GPDK 180nm* Technology node.
 
-## Introduction
+# Introduction
 ![Picture1](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/bca1c502-a462-4d61-84f6-fdd75aa42d70)
 
 -------------
 
-### **SRAM(Static Random Access Memory )** 
+# RAM(Static Random Access Memory )
 * Is a type of random access memory (RAM) that is volatile, meaning retains data bits in its memory as long as the  power is being supplied.
 * In the *Memory Hierarchy* ,SRAM is often used for cache memory, which sits between the CPU and the main memory(DRAM).
 * Unlike DRAM, SRAM does not require refreshing, making it faster and more energy-efficient.
@@ -32,7 +32,7 @@ SRAM is widely used in various applications due to its speed, low power consumpt
 
 
 --------
-### **Objectives**
+# Objectives
 
 The main goal of this project is to develop a thorough understanding  of SRAM by designing a 6T SRAM cell, along with its associated peripheral circuitry, utilizing Cadence Virtuoso tools on the 180nm technology(GPDK180).This project aims to explore various aspects of  SRAM design with a focus on optimizing read and write  stability by carefully selecting transistor sizes.
 
@@ -48,8 +48,12 @@ SRAM architecture comprises key components, including word lines, which activate
 # Design Methodology
 
 This section outlines the comprehensive design flow for a 6T SRAM cell, encompassing both the cell itself and the design considerations for its essential peripheral circuits.
+## SRAM CELL
+<!--- 
+INSERT PIC OF SRAM HERE
+-->
 
-## SRAM Cell Design
+### SRAM Cell Design
 
 When designing an SRAM cell, careful consideration of transistor sizing, particularly the W/L ratio, is essential to ensure optimal performance. The following points outline the critical aspects:
 
@@ -73,6 +77,34 @@ B) **Pull Down (PR)** :
 ```
  Pull Up ratio, PR ={ (W\L) of pull up transistor(PMOS) } / {(W\L) of access transistor(NMOS) }
 ```
+-----------------
+## Pre-charge Circuit
+* Pre-charge circuit is used to ore-charge the bit line(BL) and complementary bit line(BL') to VDD before initiating the read operation. This circuit typically comprises:
+  + **Bias Transistors** : are used in the pre-charge circuit to pull up the bit lines to VDD
+  + **Equalizer Transistors**The equalizer transistor in the pre-charge circuit ensures that both the bit line (BL) and its complementary bit line (BL') are pre-charged to the same voltage level before the read operation, thereby 
+     reducing pre-charge time and maintaining nearly equal voltages across the bit lines even if they are not pre-charged to VDD.
+* It is an active-low device.
+
+### Pre-charge Circuit Analysis
+-----------------------
+## Write Driver Circuit
+
+*The write driver circuit forces one of the bit lines to zero while maintaining the pre-charged value on the other bit line.This ensure correct data is stored within the SRAM cell.
+
+
+### Write Diver Circuit Analysis
+---------------------------------
+
+## Isolation Circuit 
+* The bit lines are connected to a sense amplifier through isolation circuitry.
+* The bit lines are isolated from the sense amplifier once sufficient signal is developed to accurately sense by the sense amplifier.
+*It is an active-low device.
+
+
+### Isolation Circuit Analysis
+---------------------------------
+
+## Sense Amplifier
 
 
 
