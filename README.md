@@ -101,21 +101,37 @@ B) **Pull Down (PR)** :
 ## Write Driver Circuit
 
 *The write driver circuit forces one of the bit lines to zero while maintaining the pre-charged value on the other bit line.This ensure correct data is stored within the SRAM cell.
+![WRITE_DRIVER](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/09c2d1a7-d307-48b1-8260-de8fca74e286)
 
-
-### Write Diver Circuit Analysis
 ---------------------------------
 
 ## Isolation Circuit 
 * The bit lines are connected to a sense amplifier through isolation circuitry.
-* The bit lines are isolated from the sense amplifier once sufficient signal is developed to accurately sense by the sense amplifier.
-*It is an active-low device.
+* It is an active-low device.
+* The bit lines are isolated from the sense amplifier once sufficient signal is developed to accurately sense by SA and the bit line isolation (ISO) signal going high. This means PMOS devices used in isolation 
+  circuit turn OFF to isolate bit lines from Sense Amplifier.
 
+![ISOLATIO_CKT](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/a52e6025-8799-483a-afcf-8dacc1a62c89)
 
-### Isolation Circuit Analysis
 ---------------------------------
 
 ## Sense Amplifier
+Sense Amplifiers perform the following functionality
+- Amplification : It allows resolving data with small bit-line swings, enabling reduced power dissipation.
+- Delay Reduction: Accelerates the bit line transition i.e., by detecting and amplifying small transition on bit lines to large output swing.
+- Power Reduction: Reducing the signal swing on the bit-lines can eliminate substantial power dissipation related to charging and discharging of the bit lines.
+
+The different topologies used are
+- Cross Coupled CMOS Latch used as Sense Amplifier
+- Differential Sense Amplifier using Differential Amplifier
+- Two stage differential Amplifier
+
+### Cross Coupled CMOS Latch used as Sense Amplifier
+
+![SENSE_AMPLIFIER](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/89621255-9c5b-4bfd-bd18-57adca4a4c9f)
+
+
+
 
 
 
