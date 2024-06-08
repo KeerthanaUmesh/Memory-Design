@@ -92,7 +92,11 @@ B) **Pull Down (PR)** :
      reducing pre-charge time and maintaining nearly equal voltages across the bit lines even if they are not pre-charged to VDD.
 * It is an active-low device.
 
+![pc_ckt_final](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/ce598ad2-743e-4915-895c-c40e270ed26a)
+
 ### Pre-charge Circuit Analysis
+![pc_ckt_final_analysis](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/9f7bdfdf-e9ee-4e7f-ac38-b654c3f39503)
+
 -----------------------
 ## Write Driver Circuit
 
