@@ -82,6 +82,8 @@ B) **Pull Down (PR)** :
 - Acces Transistor Width (Wa)=1.2*Wp =480nm
 - Pull Down NMOS transistors (Wn)=1.5*Wa=720nm
 
+![SRAM_CELL](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/c926919b-5877-463b-a915-f24b13217e09)
+
 -----------------
 ## Pre-charge Circuit
 * Pre-charge circuit is used to ore-charge the bit line(BL) and complementary bit line(BL') to VDD before initiating the read operation. This circuit typically comprises:
