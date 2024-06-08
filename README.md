@@ -131,7 +131,7 @@ The different topologies used are
 
 ![SENSE_AMPLIFIER](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/89621255-9c5b-4bfd-bd18-57adca4a4c9f)
 
----------------
+-----------------------
 # Operation
 
 ### 1.Read 0
@@ -139,26 +139,26 @@ The different topologies used are
 ![read_0](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/fad29761-5d50-4c76-80a6-52c02f6cd729)
 
 ![image](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/e4e946bf-f91b-4449-9f62-d0d97b1fe213)
----------------
+-----------------------
 ### 2.Read 1
 
 ![read_1](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/dda090b0-4902-470c-95f8-1af69a53d9f5)
 
 ![image](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/63fea3e6-acfd-41b9-a25e-d957a0f17b8a)
----------------
+-----------------------
 ### 3.Write 0
 
 ![write_0_sram](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/c72e6fad-d699-46da-9f0b-0c34362d1e9b)
 
 ![image](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/67162bf8-cb0d-469b-a516-fd3e9676e084)
----------------
+-----------------------
 ### 4.Write 1
 
 ![write_1_sram](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/2c3da0af-30fa-495b-9d64-54592a2f7a3a)
 
 ![image](https://github.com/KeerthanaUmesh/Memory-Design/assets/147648970/9582b9ae-8548-4f4b-a60c-eb07753efdfd)
 
----------------
+-----------------------
 # Stability of SRAM
 
 
