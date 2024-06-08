@@ -77,6 +77,11 @@ B) **Pull Down (PR)** :
 ```
  Pull Up ratio, PR ={ (W\L) of pull up transistor(PMOS) } / {(W\L) of access transistor(NMOS) }
 ```
+### Sizing
+- With (cell ratio) CR=1.5 and (pull up ratio) PR=0.85 using 180nm technology , keeping Wp=400n
+- Acces Transistor Width (Wa)=1.2*Wp =480nm
+- Pull Down NMOS transistors (Wn)=1.5*Wa=720nm
+
 -----------------
 ## Pre-charge Circuit
 * Pre-charge circuit is used to ore-charge the bit line(BL) and complementary bit line(BL') to VDD before initiating the read operation. This circuit typically comprises:
