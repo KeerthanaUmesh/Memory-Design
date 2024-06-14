@@ -161,6 +161,23 @@ The different topologies used are
 -----------------------
 # Stability of SRAM
 
+- An SRAM cell’s stability can be described by the “Butterfly curve” which is obtained by super-imposing the Voltage Transfer Curves (VTC) of the 2 Inverters of Memory Cell.
+- Stability can be Analyzed by measuring Static Noise Margin (SNM) which we obtain by Analyzing the Memory Cell in READ state as there will be possibility Noise getting added. This Noise added may change the state.
+- The Stability of the cell is given by the size of the Maximum square box that can fit inside the “Butterfly wing” .
+
+  ### Hold State
+   WL=0 and Access Transistors M5 and M6 are OFF.
+  - As access Transistors are in OFF state the Cell is isolated from BL and BL’, Therefore there is No possibility of  state changing as there will be less chance of  Noise interference.
+  - If we plot VTC of INV1 and INV2 and super-imposing the VTCs we get butterfly curve. 
+  - As there is No Noise getting added, the Inverters are working with a perfect VTC as shown and gives Hold state Static Noise Margin (SNM) which is expected to be Maximum
+ 
+  ### Read State
+   WL=1 , Access Transistors M5 and M6 are OFF and Bit lines are Pre-charged to VDD
+
+
+
+
+
 
 
 
