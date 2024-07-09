@@ -57,10 +57,10 @@ INSERT PIC OF SRAM HERE
 
 When designing an SRAM cell, careful consideration of transistor sizing, particularly the W/L ratio, is essential to ensure optimal performance. The following points outline the critical aspects:
 
-*Preservation of Stored Information (Avoiding Read Upset ):
+Preservation of Stored Information (Avoiding Read Upset ):
 Transistor sizing, specifically the W/L ratio, must be chosen to prevent the destruction of stored information during the data-read operation.
 
-*Allow Data Modification during Write Operation:
+Allow Data Modification during Write Operation:
 The SRAM cell design should facilitate the modification of stored information during the data-write phase.
 
 **The sizing of the transistors in an SRAM cell is determined by two key parameters:**
