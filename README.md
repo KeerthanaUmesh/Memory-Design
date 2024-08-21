@@ -86,7 +86,7 @@ B) **Pull Down (PR)** :
 
 -----------------
 ## Pre-charge Circuit
-* Pre-charge circuit is used to ore-charge the bit line(BL) and complementary bit line(BL') to VDD before initiating the read operation. This circuit typically comprises:
+* Pre-charge circuit is used to pre-charge the bit line(BL) and complementary bit line(BL') to VDD before initiating the read operation. This circuit typically comprises:
   + **Bias Transistors** : are used in the pre-charge circuit to pull up the bit lines to VDD
   + **Equalizer Transistors**The equalizer transistor in the pre-charge circuit ensures that both the bit line (BL) and its complementary bit line (BL') are pre-charged to the same voltage level before the read operation, thereby 
      reducing pre-charge time and maintaining nearly equal voltages across the bit lines even if they are not pre-charged to VDD.
